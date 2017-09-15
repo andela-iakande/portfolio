@@ -10,7 +10,7 @@ class App extends React.Component {
         );
     }
 }
-App.prototypes = {
+App.propTypes = {
   children: PropTypes.object.isRequired  
 };
 
