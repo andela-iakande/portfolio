@@ -24,7 +24,7 @@ const Header = () => {
                         <Link to="products">Product</Link> 
                     </li>
                     <li className="last">
-                        <Link to="about">Contact</Link> 
+                        <Link to="contact">Contact</Link> 
                     </li>    
                     </ul>  
                 </div>

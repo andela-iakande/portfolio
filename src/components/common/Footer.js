@@ -15,19 +15,19 @@ const Footer = () => {
           </div>
           <div className="col-sm-4">
             <h3>Connect</h3>
-            <a href="https://www.facebook.com/akande.imisioluwaezekiel">
+            <a href="https://www.facebook.com/akande.imisioluwaezekiel" target="_blank">
               <i className="fa fa-facebook" />
             </a>
             
-            <a href="https://twitter.com/imizezek">
+            <a href="https://twitter.com/imizezek"target="_blank">
               <i className="fa fa-twitter" />
             </a>
 
-            <a href="https://medium.com/@imizezek">
+            <a href="https://medium.com/@imizezek" target="_blank">
               <i className="fa fa-medium" />
             </a> 
 
-            <a href="https://www.aedin.com/in/imisioluwa-akande-39030b70/">
+            <a href="https://www.linkedin.com/in/imisioluwa-akande-39030b70/" target="_blank">
               <i className="fa fa-linkedin" />
             </a>           
           </div>
