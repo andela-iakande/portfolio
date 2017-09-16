@@ -7,7 +7,7 @@ import ProductsPage from './components/products/ProductsPage';
 
 export default ( 
     <Route path = "/" component= {App}>
-      <IndexRoute component = { HomePage } />
+      <IndexRoute component = {HomePage} />
       <Route path = "/about" component = {AboutPage}/>
       <Route path = "/products" component = {ProductsPage}/>
     </Route>         
