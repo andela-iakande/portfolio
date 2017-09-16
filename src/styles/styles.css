@@ -19,6 +19,10 @@ body {
     padding-bottom: 20px;
 }
 
+img.img-responsive {
+    height: 330px;
+}
+
 .navbar {
   margin-bottom: 0px;
   border-radius:0px;
