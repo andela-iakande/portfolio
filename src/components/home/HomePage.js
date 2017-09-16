@@ -4,7 +4,8 @@ import { Link } from 'react-router';
 class HomePage extends React.Component {
     render() {
         return (
-                <div id="myCarousel" className="carousel slide" data-ride="carousel">
+          <div className = "myHome">  
+            <div id="myCarousel" className="carousel slide" data-ride="carousel">
                 <ol className="carousel-indicators">
                     <li data-target="#myCarousel" data-slide-to="0" className="active"></li>
                     <li data-target="#myCarousel" data-slide-to="1"></li>
@@ -35,9 +36,25 @@ class HomePage extends React.Component {
                         <span className="glyphicon glyphicon-chevron-right"></span>
                         <span className="sr-only">Next</span>
                     </Link>   
-                </div>
-               
-              
+            </div> 
+                <div className = "container text-center">
+                    <h2>Interests</h2>
+                    <div className="row">
+                        <div className="col-sm-4">
+                        <img src = "/public/webdevelopment.jpeg" alt="web development" id ="icon"/>
+                        <h4>Web development</h4>
+                        </div>  
+                        <div className="col-sm-4">
+                        <img src = "/public/nlp.jpg" alt="Natural Language" id ="icon"/>
+                        <h4>Natural Language processing</h4>
+                        </div>
+                        <div className="col-sm-4">
+                        <img src = "/public/data-science.jpg" alt="data science"id ="icon"/>
+                        <h4>Data Science</h4>
+                        </div>  
+                    </div>
+                </div> 
+           </div> 
         );
     }
 }
