@@ -29,6 +29,10 @@ body {
   font-size: 1.2em;
   border:0;
 }
+
+nav.navbar.navbar-inverse {
+    background-color:#5e4485; 
+}
 .navbar-brand{
   float: left;
   padding: 0 15px 5px;
@@ -58,15 +62,15 @@ ul.nav.navbar-nav.navbar-right a:active{
   text-transform: uppercase;
 }
 
-.btn{
-  font-size: 18px;
-  color: #fff;
-  padding:12px 22px;
-  background:#5e4485;
-  border: 2px solid #fff;
-  margin-top: 100px;
+.carousel-caption .btn {
+    font-size: 18px;
+    color: #fff;
+    padding: 12px 22px;
+    background: #5e4485;
+    border: 2px solid #fff;
+    margin-top: 100px;
+    text-shadow: none;
 }
-
 @media(max-width:600px){
     .carousel-caption {
       display: none;
