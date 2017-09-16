@@ -7,7 +7,7 @@ class ProductsPage extends React.Component {
            <div className="jumbotron">
              <h1>My Products avenue </h1> 
              <p> Check out my products page here </p>
-             <Link to ="products" className="btn btn-primary btn-lg"> More products
+             <Link to ="about" className="btn btn-primary btn-lg"> Go to about
              </Link>
            </div>         
         );
