@@ -8,7 +8,7 @@
     "lint": "node_modules/.bin/esw webpack.config.* src tools",
     "lint:watch": "npm run lint -- --watch",
     "transpile": "babel tools --out-dir tools_dist",
-    "start": "node tools_dist/startMessage.js && node tools_dist/srcServer.js",
+    "start": "node tools_dist/srcServer.js",
     "heroku-postbuild": "npm run transpile"
   },
   "author": "Akande Imisioluwa",
