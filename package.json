@@ -29,6 +29,7 @@
     "express": "4.13.4",
     "jquery": "2.2.3",
     "npm-run-all": "1.8.0",
+    "open": "0.0.5",
     "react": "15.0.2",
     "react-dom": "15.0.2",
     "react-redux": "4.4.5",
@@ -61,7 +62,6 @@
     "jsdom": "8.5.0",
     "mocha": "2.4.5",
     "nock": "8.0.0",
-    "open": "0.0.5",
     "rimraf": "2.5.2"
   },
   "repository": {
