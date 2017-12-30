@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "This application describes me",
   "scripts": {
-    "prestart": "babel-node tools/startMessage.js",
+    "prestart": "babel-cli tools/startMessage.js",
     "start": "npm-run-all --parallel open:src lint:watch",
-    "open:src": "babel-node tools/srcServer.js",
+    "open:src": "babel-cli tools/srcServer.js",
     "lint": "node_modules/.bin/esw webpack.config.* src tools",
     "lint:watch": "npm run lint -- --watch"
   },
